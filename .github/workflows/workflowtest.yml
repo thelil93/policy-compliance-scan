@@ -14,7 +14,7 @@ jobs:
       uses: azure/policy-compliance-scan@v0
       with:
         scopes: |
-          /subscriptions/f3881bde-58e9-4860-83df-d1f405bb32cf/
+          /subscriptions/f3881bde-58e9-4860-83df-d1f405bb32cf
         report-name: testoutput
 
         
