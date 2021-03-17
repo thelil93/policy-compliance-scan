@@ -135,10 +135,7 @@ jobs:
           /subscriptions/ea8658dd-12f6-4690-b8aa-0d1af94b37e5
           /subscriptions/7dc9cf81-ea32-4dfe-a608-17927055d671
           /subscriptions/44d6c302-18fd-444f-b9ff-fa68efe7886d
-
-
-          
-
-        report-name: testoutput
+  
+  report-name: testoutput
 
         
