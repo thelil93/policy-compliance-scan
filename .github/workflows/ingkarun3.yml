@@ -21,7 +21,6 @@ jobs:
           /subscriptions/e1002b69-5664-4b20-9150-34e2e40be793
           /subscriptions/c24efc5e-9819-4122-af48-21b850173405
           /subscriptions/4bcebb69-a341-47b6-9657-e239000fc88b
-          /subscriptions/33aeb191-3fc3-45de-9971-ff76dd37e096
           /subscriptions/56facd89-55e2-4bcd-b26b-b00670aa09b4
           /subscriptions/92e37278-26cd-425a-9a68-1a435b5906b3
           /subscriptions/9043d78e-29ef-4840-bcfe-e144b2ddbece
@@ -95,4 +94,5 @@ jobs:
           /subscriptions/53893552-f17a-4c14-9cdf-9b8c4a0c01c6
           /subscriptions/193ea012-8841-41f3-b62a-48a36b04fc20
           /subscriptions/2846920e-f7c9-428c-bbad-d4b58b6420ba
+        
         report-name: ingkarun3
