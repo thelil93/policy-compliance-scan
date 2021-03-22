@@ -14,6 +14,129 @@ jobs:
       uses: azure/policy-compliance-scan@v0
       with:
         scopes: |
+          /subscriptions/9d233741-0a33-4779-b653-29b43ca7c77d
+          /subscriptions/e33fe4a0-8c6c-4254-bc7e-89bf979e0eee
+          /subscriptions/6bee550a-f685-4cab-8401-faa90354d5e4
+          /subscriptions/f6430ebd-62c6-41aa-ad23-34c2bc3ddc05
+          /subscriptions/79a8df13-5255-4e4c-8a5c-773a68fe8973
+          /subscriptions/c9d21b6b-3166-416b-ad9e-0bcff778b6dc
+          /subscriptions/5f92eaf8-8a88-4a6b-a066-f39846f90555
+          /subscriptions/8b932c52-39fe-44cb-a1c4-7cbae3624396
+          /subscriptions/21adafce-69a2-4394-80b7-5b3fe4fdb60d
+          /subscriptions/09a37bf7-ac25-484d-b3e5-6ed6b7605f78
+          /subscriptions/f394088f-6c52-49df-9b70-0de600614672
+          /subscriptions/8761f85b-1b35-4197-a5a9-9d794e472060
+          /subscriptions/e880e345-39e4-4239-acaa-ede25c8e0900
+          /subscriptions/4d3779ac-b33b-47e4-9489-81305d305042
+          /subscriptions/5591d185-39b8-46d7-a588-cc387d3f5fda
+          /subscriptions/6019cc95-6cc2-4f5f-b3ca-19c213a27fb2
+          /subscriptions/45c585b9-521a-462e-8099-398f45e7399e
+          /subscriptions/30cd2329-ef84-4e11-ae44-5e66923256d2
+          /subscriptions/5b86f598-01af-4b6e-aeb8-2388b74fefed
+          /subscriptions/5d01db64-237f-480f-a7dc-38ab55c51b4f
+          /subscriptions/22cb4557-168c-4e6b-aad2-570756536f22
+          /subscriptions/1e0f9832-42e2-4632-ba7f-e8e51fd8d711
+          /subscriptions/5f1ad776-df00-4824-85ea-61d7bd15968a
+          /subscriptions/8fa19517-7655-40fb-a724-e36376fcb9c5
+          /subscriptions/3bb0e5ac-a331-40f9-b13d-b211023bacc0
+          /subscriptions/86746bc9-fa5b-4685-8254-cce2b3b5b099
+          /subscriptions/1dfe1e46-c0da-45a2-a6e7-64a36b433a99
+          /subscriptions/a3d51cdf-56fe-443d-b654-cc4b050602e6
+          /subscriptions/16aa5e9d-ed17-46bf-9301-86c509702def
+          /subscriptions/b9e4917b-6b6a-4f64-aa62-a4bd820cfe80
+          /subscriptions/deb74e4c-b610-4162-af8e-ef82291ed52b
+          /subscriptions/efd18816-8edc-4eff-a1a3-efd047834a66
+          /subscriptions/af8f0fa8-ec9c-436d-b205-81560a4a5767
+          /subscriptions/7a16d44f-fa91-45db-8123-ec1f2f16f8da
+          /subscriptions/99f877f5-256c-4e39-92bf-34d2fcf28f7c
+          /subscriptions/0537e970-2844-40ad-a1de-c7fbe2049ed7
+          /subscriptions/bce44f14-3c9d-4f09-ac60-8bc6cc1e073c
+          /subscriptions/be0ad929-3126-491f-9658-158898ebf90d
+          /subscriptions/2691996b-2443-49b1-ac23-705dddf1df6c
+          /subscriptions/dfc15e27-5385-43bf-b71a-f754f2cb7115
+          /subscriptions/58f8087c-98b9-47b8-ab43-f37ca527d425
+          /subscriptions/ac6c39d5-4612-47c4-9b6b-bffa94870cfc
+          /subscriptions/81fd114a-2418-4eb7-9744-774d82cf2067
+          /subscriptions/cb4c991f-b871-41c9-a53d-3366ba184e5e
+          /subscriptions/2b02f2ae-3719-4b54-98e5-577b7e51090c
+          /subscriptions/be25e490-1d97-4ede-801e-02e8d123060c
+          /subscriptions/d88a031e-8096-4a58-9dd1-1291cf7add5d
+          /subscriptions/4536b158-3766-4e93-a3bb-cc7b80c987b3
+          /subscriptions/3f5856ce-461d-4b28-bb96-578e90c35968
+          /subscriptions/efc9e22f-81e1-4360-90e2-8f2aa6f7eac8
+          /subscriptions/01cba89d-9bbc-46d8-93ae-b7259c0a2ce5
+          /subscriptions/066338cf-474f-41ad-a312-3b24c176f9b5
+          /subscriptions/c2aff660-6031-432e-8599-465f45a072df
+          /subscriptions/a0c32676-fa9f-4da4-b11f-8e27f0b2af16
+          /subscriptions/73dd97e3-4d0d-421c-9a9a-c2bf50e9ac80
+          /subscriptions/d6afebd9-73ff-49e8-9545-81837f37e3b9
+          /subscriptions/ab71dacd-aa49-40d4-8c5c-ef507586d23c
+          /subscriptions/ff761409-fc0e-407c-97ac-9b6f0a3891e2
+          /subscriptions/5a773da1-0ef4-4fda-b309-258d7878aff6
+          /subscriptions/73529282-37b8-4216-aea9-8175f0281ed2
+          /subscriptions/5b465c0a-4b4d-4837-9253-172211210f06
+          /subscriptions/6cc28d84-40f1-46ed-a5cd-0ef878c9a7ec
+          /subscriptions/09b395a7-6a68-4605-a157-47a00813373a
+          /subscriptions/a331c1fc-2bbd-40ba-ba09-2193ea5cf85d
+          /subscriptions/064f430e-551a-4fa1-a21a-d9b34100e284
+          /subscriptions/7e83f129-81e9-4fcf-aebb-b5ef5dcda3e5
+          /subscriptions/bf8463dc-ff45-4f35-96f8-85831dde56d9
+          /subscriptions/83c36489-0a60-45d7-bda9-953baaee4312
+          /subscriptions/d62f508a-9680-422f-8726-e67888480033
+          /subscriptions/e1002b69-5664-4b20-9150-34e2e40be793
+          /subscriptions/c24efc5e-9819-4122-af48-21b850173405
+          /subscriptions/4bcebb69-a341-47b6-9657-e239000fc88b
+          /subscriptions/33aeb191-3fc3-45de-9971-ff76dd37e096
+          /subscriptions/56facd89-55e2-4bcd-b26b-b00670aa09b4
+          /subscriptions/92e37278-26cd-425a-9a68-1a435b5906b3
+          /subscriptions/9043d78e-29ef-4840-bcfe-e144b2ddbece
+          /subscriptions/73377d13-701b-42be-8f15-27b5e0e9897f
+          /subscriptions/0ada2907-e5ad-4bb3-8396-1d2e48d5842e
+          /subscriptions/4c92f5b2-0db8-4887-af5e-6430f569dad4
+          /subscriptions/b0238909-8fcd-484d-86ea-0a232d38946f
+          /subscriptions/8fbff860-4cf3-4de9-bf1d-2020cbef3c9b
+          /subscriptions/872e01f5-cbb0-4010-a577-58161e3e735c
+          /subscriptions/17077489-ee6e-4e1c-8e89-e089b6f7c342
+          /subscriptions/a1c2cddd-d0b2-4119-b3d8-6e05a0aa0ea8
+          /subscriptions/ce4ad896-1bbc-4cb2-9c3b-5ecd48547acc
+          /subscriptions/421ebb14-6da7-4e6b-bbcc-d97e154bce64
+          /subscriptions/e7be8e46-4f12-4579-9e89-cf0e2fe73aac
+          /subscriptions/58593701-f762-43be-ab1c-ff7cb23a7984
+          /subscriptions/9fd2327a-1823-4423-a347-01e93db8d763
+          /subscriptions/416a0294-e770-42fd-99d9-bf96e18fbc5a
+          /subscriptions/0c085d32-1079-4186-b1d1-91550da611b1
+          /subscriptions/9f58f678-e535-48f1-9b96-e53ce34365f4
+          /subscriptions/535d3266-754b-45c2-97a0-b6ab99332dc7
+          /subscriptions/d1e67b3b-08e9-4b80-a5eb-c0cf5bf09235
+          /subscriptions/0e1a5200-706e-464d-b492-c3b0131e8caf
+          /subscriptions/36d249da-081a-4108-8dc5-75149551e13d
+          /subscriptions/bb1603db-abec-4986-9958-68d787981389
+          /subscriptions/32599a1b-f04e-423b-8c35-09a2042d50ed
+          /subscriptions/cff0bafd-0500-42b8-91c1-f4038556c1e0
+          /subscriptions/9ae1825c-70b7-4f66-8e61-f35ca90c30bc
+          /subscriptions/f44674e9-c4cb-4d78-a506-c964d67aeaee
+          /subscriptions/95da85ab-36d1-4186-a5aa-999488599671
+          /subscriptions/faa85b3c-7034-43f3-9b3e-502a6d366277
+          /subscriptions/f7b4a953-55a4-4a4f-abff-73b05e85f516
+          /subscriptions/fb87d0bc-7a57-4e63-ba2b-858bc20fec8a
+          /subscriptions/21c378c2-c1d2-40cf-ad91-1c09cdd6216c
+          /subscriptions/874d06d7-2a54-4d01-b359-144ac00bdac2
+          /subscriptions/84fbe2d2-6077-4234-b04a-74560802cf5a
+          /subscriptions/631b218b-af0e-4989-8041-c2dac4b44aee
+          /subscriptions/36c91948-355a-4ded-ad65-959d5636e505
+          /subscriptions/6412370c-4b6d-40ff-90b9-60c819e2d7ca
+          /subscriptions/ba8c8b1a-d245-4d23-b6d9-89f3d3a9069d
+          /subscriptions/3b5be010-2c50-4473-aa49-82a6bd08b108
+          /subscriptions/756d0e1b-d8e3-4063-82b7-d80f22d1c6e2
+          /subscriptions/2245c34d-6884-4c4a-9b2e-eec139bd13d4
+          /subscriptions/357fbea8-701d-46f3-8142-3fa91b919b93
+          /subscriptions/1ae9fa9a-82e5-4760-b5fe-ccba6d87fe34
+          /subscriptions/7dc63e36-dd59-40ee-b90d-7535931c9cfd
+          /subscriptions/1ef875f9-e340-47e4-9924-0e8fc1ce70d9
+          /subscriptions/6d302991-ce1a-4e4d-81b9-f0cc142fbf04
+          /subscriptions/ea8658dd-12f6-4690-b8aa-0d1af94b37e5
+          /subscriptions/7dc9cf81-ea32-4dfe-a608-17927055d671
+          /subscriptions/44d6c302-18fd-444f-b9ff-fa68efe7886d
           /subscriptions/63b9382a-b3a6-47d6-a190-2684cc35352b
           /subscriptions/2dd970e8-b5ea-4e67-87cb-508e97c41dcc
           /subscriptions/0daf9bf3-94cc-4823-921d-fdb562f62dbb
@@ -62,6 +185,7 @@ jobs:
           /subscriptions/04a029ef-5d7c-4668-8cf9-7d3314aea643
           /subscriptions/cd68972f-924e-473e-97da-1c43a9471228
           /subscriptions/6d563cde-2507-4a44-b084-fb681fa7f943
+          /subscriptions/c91df8e1-e4d2-4582-9641-1899cb648b30
           /subscriptions/6cc54888-b71c-42b6-984c-bf6bc5d1aacc
           /subscriptions/6fd36122-b3f2-4495-a9d7-203b2265d401
           /subscriptions/3844cf56-e4fb-4b10-a099-744139d28868
@@ -124,6 +248,7 @@ jobs:
           /subscriptions/f9e17344-b036-458b-82e8-3ce6467a1eab
           /subscriptions/0fcea98a-f569-4bc5-9567-3591abefebef
           /subscriptions/3fe13b42-1fa9-4d30-9909-02ac5bd01762
+          /subscriptions/0d9d6935-1118-4f89-ae5a-426a138f44e1
           /subscriptions/f83ba51d-3b56-4ec2-99fb-84c34488ff21
           /subscriptions/76d77fb9-ccfa-4718-a4c4-8a764f2b2a0d
           /subscriptions/febc5bf5-848a-4cc2-be71-e7ea025f5471
@@ -146,6 +271,7 @@ jobs:
           /subscriptions/b256e141-f6d0-4511-948d-98b88ea70620
           /subscriptions/c20255f4-788f-46ec-84c1-e62f252e8e99
           /subscriptions/73163ad4-c82e-4d34-a1c4-006df8d7b20a
+          /subscriptions/cb6fd27f-7ba1-4674-8659-259522715489
           /subscriptions/e39dc8a6-de7c-4821-becd-36e6b578e795
           /subscriptions/27fdf240-8009-43ab-b1e6-8f4dcbcd8c5c
           /subscriptions/cd3f88fb-c505-49d3-a0a7-337b24526c26
@@ -170,6 +296,7 @@ jobs:
           /subscriptions/aa6a482a-060c-4c13-8364-433a3918226a
           /subscriptions/07c67e9f-bbb7-4910-a76f-d657151725c8
           /subscriptions/c7e66eb9-86b9-4490-a3f6-9287d8a8dcc5
+          /subscriptions/484e3b77-ebdd-4f73-80b1-2571473a6d57
           /subscriptions/458370e3-15cc-4e67-b206-f7b37a15a0b8
           /subscriptions/c180c8a6-50c6-4e9a-9ff9-a4991c0ba6ea
           /subscriptions/f3f29c19-512f-4619-b5f4-b21bee982cf3
@@ -179,6 +306,7 @@ jobs:
           /subscriptions/d24df331-ac50-42f9-86a8-380367a143b4
           /subscriptions/71ae6b62-b66e-4856-96a3-544be77db5ed
           /subscriptions/20e54b9d-2882-4898-bb0e-635568be94f6
+
   
         report-name: testoutput
 

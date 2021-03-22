@@ -132,7 +132,7 @@ export async function pollForCompletion(polls: ScanCompletionPoll[]) {
 
   let pendingPolls: ScanCompletionPoll[] = polls;
 
-  const pollInterval: number = 60 * 1000; // 60000ms = 1min
+  const pollInterval: number = 60 * 3000; // 60000ms = 1min
   try {
     printPartitionedText(`Poll interval (ms):: ${pollInterval}`);
     while (pendingPolls.length > 0) {
