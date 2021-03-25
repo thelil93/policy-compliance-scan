@@ -1,0 +1,42 @@
+on: workflow_dispatch
+
+jobs:
+  assess-policy-compliance:    
+    runs-on: ubuntu-latest
+    steps:
+    # Azure Login       
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{secrets.AZURE_CREDENTIALS}} 
+    
+    - name: Check for resource compliance
+      uses: azure/policy-compliance-scan@v0
+      with:
+        scopes: |
+            /subscriptions/36d249da-081a-4108-8dc5-75149551e13d
+            /subscriptions/bb1603db-abec-4986-9958-68d787981389
+            /subscriptions/32599a1b-f04e-423b-8c35-09a2042d50ed
+            /subscriptions/cff0bafd-0500-42b8-91c1-f4038556c1e0
+            /subscriptions/9ae1825c-70b7-4f66-8e61-f35ca90c30bc
+            /subscriptions/f44674e9-c4cb-4d78-a506-c964d67aeaee
+            /subscriptions/95da85ab-36d1-4186-a5aa-999488599671
+            /subscriptions/faa85b3c-7034-43f3-9b3e-502a6d366277
+            /subscriptions/f7b4a953-55a4-4a4f-abff-73b05e85f516
+            /subscriptions/fb87d0bc-7a57-4e63-ba2b-858bc20fec8a
+            /subscriptions/fd7d190b-4551-4163-b457-dfabd2f0b509
+            /subscriptions/b05765b8-c6c7-4317-867b-cbdb0911fc35
+            /subscriptions/21c378c2-c1d2-40cf-ad91-1c09cdd6216c
+            /subscriptions/874d06d7-2a54-4d01-b359-144ac00bdac2
+            /subscriptions/84fbe2d2-6077-4234-b04a-74560802cf5a
+            /subscriptions/631b218b-af0e-4989-8041-c2dac4b44aee
+            /subscriptions/36c91948-355a-4ded-ad65-959d5636e505
+            /subscriptions/6412370c-4b6d-40ff-90b9-60c819e2d7ca
+            /subscriptions/ba8c8b1a-d245-4d23-b6d9-89f3d3a9069d
+            /subscriptions/3b5be010-2c50-4473-aa49-82a6bd08b108
+            /subscriptions/756d0e1b-d8e3-4063-82b7-d80f22d1c6e2
+            /subscriptions/2245c34d-6884-4c4a-9b2e-eec139bd13d4
+            /subscriptions/357fbea8-701d-46f3-8142-3fa91b919b93
+            /subscriptions/1ae9fa9a-82e5-4760-b5fe-ccba6d87fe34
+            /subscriptions/7dc63e36-dd59-40ee-b90d-7535931c9cfd
+        report-name: ingkarun8
