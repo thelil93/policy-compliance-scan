@@ -14,7 +14,6 @@ jobs:
       uses: azure/policy-compliance-scan@v0
       with:
         scopes: |
-            /subscriptions/526e229c-c70b-4408-ba85-01b7fd1f8b7d
             /subscriptions/ceed985d-c166-4126-9236-562cca66fffd
             /subscriptions/7e81ff13-8e77-4d25-addd-c64df645c666
             /subscriptions/053cb79f-da73-4ff2-8c7d-105a720756fc
